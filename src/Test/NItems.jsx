@@ -15,8 +15,8 @@ export const Items=[
     },
     {
         "ind":"3",
-        "item":"Contact",
-        "to":"/contact",
+        "item":"Myprofile",
+        "to":"/Myprofile",
        
 
         
