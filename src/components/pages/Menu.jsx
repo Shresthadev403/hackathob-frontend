@@ -148,7 +148,7 @@ const Food = () => {
                     >
                       +
                     </button>
-                    <FaShoppingCart size={40} className='text-black '/>
+                    <FaShoppingCart size={40} className='text-black dark:text-white '/>
                   </div>
                   
                 </p>
