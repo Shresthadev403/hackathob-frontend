@@ -14,6 +14,7 @@ import Contact from "./components/pages/Contact";
 import Portfolio from "./components/pages/Portfolio";
 import Events from "./components/pages/Events";
 import Menu from "./components/pages/Menu";
+import Myprofile from "./components/pages/Myprofile";
 
 function MainRouter() {
 
@@ -37,6 +38,7 @@ function MainRouter() {
         
         <Route exact path='/Portfolio' element={<Portfolio/>}></Route>
         <Route exact path="/menu" element={<Menu/>}></Route>
+        <Route exact path="/Myprofile" element={<Myprofile/>}></Route>
 
 {/* admin Routes */}
         
