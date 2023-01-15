@@ -104,15 +104,18 @@ const teste=(e)=>{
                      w-[200px]
                      flex-col bg-white text-black drop-shadow-lg"
                     >
-                      <a class="px-5 py-3 hover:bg-gray-800 hover:text-white" href="/events">
+                      <Link to='/events' className="px-5 py-3 hover:bg-gray-800 hover:text-white">Event</Link>
+                      {/* <a class="px-5 py-3 hover:bg-gray-800 hover:text-white"  href="/events">
                         Event
-                      </a>
-                      <a class="px-5 py-3 hover:bg-gray-800  hover:text-white" href="/billing">
+                      </a> */}
+                     <Link to='/Billing' className="px-5 py-3 hover:bg-gray-800 hover:text-white">Billing</Link>
+                      {/* <a class="px-5 py-3 hover:bg-gray-800  hover:text-white" href="/billing">
                         Billing
-                      </a>
-                      <a class="px-5 py-3 hover:bg-gray-800  hover:text-white" href="/menu">
+                      </a> */}
+                     <Link to='/menu' className="px-5 py-3 hover:bg-gray-800 hover:text-white">Menu</Link>
+                      {/* <a class="px-5 py-3 hover:bg-gray-800  hover:text-white" href="/menu">
                         Menu
-                      </a>
+                      </a> */}
                     </div>
                   </div>):(<div>{list.item}</div>)
                 }
