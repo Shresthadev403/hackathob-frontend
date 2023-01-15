@@ -134,7 +134,8 @@ const Food = () => {
                     {item.price}
                   </span>
 
-                  <div className="flex m-2">
+                  <div className="flex mr-0">
+                  <button className='border border-white bg-white text-black px-2 rounded-xl   shadow-md'>Order Now</button>
                     <button
                       className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-full m-0"
                       onClick={handleDecrement}
@@ -148,7 +149,7 @@ const Food = () => {
                     >
                       +
                     </button>
-                    <FaShoppingCart size={40} className='text-black dark:text-white '/>
+                    {/* <FaShoppingCart size={40} className='text-black dark:text-white '/> */}
                   </div>
                   
                 </p>
