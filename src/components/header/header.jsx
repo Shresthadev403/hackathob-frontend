@@ -104,13 +104,13 @@ const teste=(e)=>{
                      w-[200px]
                      flex-col bg-white text-black drop-shadow-lg"
                     >
-                      <a class="px-5 py-3 hover:bg-gray-800 hover:text-white" href="#">
+                      <a class="px-5 py-3 hover:bg-gray-800 hover:text-white" href="/events">
                         Event
                       </a>
-                      <a class="px-5 py-3 hover:bg-gray-800  hover:text-white" href="#">
+                      <a class="px-5 py-3 hover:bg-gray-800  hover:text-white" href="/billing">
                         Billing
                       </a>
-                      <a class="px-5 py-3 hover:bg-gray-800  hover:text-white" href="#">
+                      <a class="px-5 py-3 hover:bg-gray-800  hover:text-white" href="/menu">
                         Menu
                       </a>
                     </div>
